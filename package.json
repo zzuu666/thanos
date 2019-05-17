@@ -1,0 +1,30 @@
+{
+  "name": "thanos",
+  "version": "1.0.0",
+  "description": "Destroy an element like Thanos snap his fingers!",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zzuu666/thanos.git"
+  },
+  "keywords": [
+    "thanos"
+  ],
+  "author": "zzuu666",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzuu666/thanos/issues"
+  },
+  "homepage": "https://github.com/zzuu666/thanos#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "rollup": "^1.12.1",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
