@@ -1,8 +1,8 @@
 {
-  "name": "thanos",
-  "version": "1.0.0",
+  "name": "thanos-boom",
+  "version": "0.1.0",
   "description": "Destroy an element like Thanos snap his fingers!",
-  "main": "index.js",
+  "main": "dist/thanos.min.js",
   "scripts": {
     "build": "rollup --config"
   },
@@ -18,13 +18,22 @@
   "bugs": {
     "url": "https://github.com/zzuu666/thanos/issues"
   },
+  "files": [
+      "dist",
+      "src"
+  ],
   "homepage": "https://github.com/zzuu666/thanos#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/html2canvas": "0.0.35",
     "rollup": "^1.12.1",
-    "rollup-plugin-babel": "^4.3.2"
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "peerDependencies": {
+    "html2canvas": "^1.0.0-rc.1"
   }
 }

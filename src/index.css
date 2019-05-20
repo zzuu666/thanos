@@ -1,0 +1,16 @@
+.thanos-disintegration-container {
+    position: absolute;
+    pointer-events: none;
+}
+
+.thanos-disintegration-container>canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 1s ease-out, -webkit-transform 1s ease-out;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    transition: transform 1s ease-out, opacity 1s ease-out, -webkit-transform 1s ease-out;
+    opacity: 1;
+    -webkit-transform: rotate(0deg) translate(0px, 0px) rotate(0deg);
+    transform: rotate(0deg) translate(0px, 0px) rotate(0deg);
+}
