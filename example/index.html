@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thanos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../src/index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .example {
+            margin: 20px auto;
+            width: 460px;
+        }
+
+        .example p {
+            font-size: 22px;
+            color: cadetblue;
+            word-wrap: break-word;
+        }
+    </style>
+    <script src="../node_modules/html2canvas/dist/html2canvas.min.js"></script>
+    <script src="../dist/thanos.min.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="example">
+            <p>Thanos: I am inevitable.</p>
+            <i>Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla</i>
+        </div>
+    </div>
+</body>
+
+<script>
+    const thanos = new Thanos({
+        frames: 16,
+        repetitionCount: 2
+    })
+    setTimeout(() => {
+        thanos.disintegrate(document.querySelector('.example'))
+    }, 2000)
+</script>
+
+</html>
