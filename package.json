@@ -11,7 +11,8 @@
     "url": "git+ssh://git@github.com/zzuu666/thanos.git"
   },
   "keywords": [
-    "thanos"
+    "thanos",
+    "animation"
   ],
   "author": "zzuu666",
   "license": "MIT",

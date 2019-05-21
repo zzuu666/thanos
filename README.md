@@ -1,4 +1,4 @@
-## Thanos 灭霸
+## Thanos 灭霸 ![npm](https://img.shields.io/npm/v/thanos-boom.svg?style=flat-square)![npm](https://img.shields.io/npm/dy/thanos-boom.svg?style=flat-square)
 
 可以像灭霸打响指一样，把元素变为原子尘埃。
 
@@ -35,7 +35,7 @@ npm install thanos-boom --save
 #### 3. 引用
 
 ``` js
-import 'thanos-boom/dist/thanos-boom.css';
+import 'thanos-boom/dist/index.css';
 import Thanos from 'thanos-boom';
 
 const thanos = new Thanos();
