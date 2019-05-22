@@ -43,3 +43,29 @@ const thanos = new Thanos();
 thanos.disintegrate(document.querySelector('.example'));
 ```
 
+
+
+## 参数
+
+Thanos 类接受一个参数。
+
+| 字段名          | 类型   | 默认值 | 说明                                                         |
+| --------------- | ------ | ------ | ------------------------------------------------------------ |
+| frames          | number | 16     | 将画面拆解为多少层，数值越高越消耗性能。                     |
+| repetitionCount | number | 2      | 画面中的每个像素将被重复几次，数值越高越消耗性能。           |
+| cssPrefix       | string | thanos | 动画 css 前缀名。                                            |
+| html2canvas     | object | {}     | html2canvas 初始化时接受的参数。参考 <https://html2canvas.hertzen.com/configuration> |
+
+
+
+## 更新日志
+
+### 0.1.0
+
++ 最初版本。
+
+### 0.1.4
+
++ 增加 types 文件
++ 调整参数默认值： `frames: 32 => 16` 和 `repetitionCount: 4 => 2`
+

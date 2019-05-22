@@ -19,7 +19,7 @@ class Thanos {
         this.options = { ...this.defaultOptions, ...options };
     }
 
-    defaultOptions: DefaultOptions = { frames: 32, cssPrefix: 'thanos', repetitionCount: 4 }
+    defaultOptions: DefaultOptions = { frames: 16, cssPrefix: 'thanos', repetitionCount: 2 }
 
     options: DefaultOptions
 
