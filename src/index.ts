@@ -15,7 +15,7 @@ interface DefaultOptions {
 }
 
 class Thanos {
-    constructor(options: Options) {
+    constructor(options?: Options) {
         this.options = { ...this.defaultOptions, ...options };
     }
 

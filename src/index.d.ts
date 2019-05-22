@@ -13,7 +13,7 @@ interface DefaultOptions {
 }
 
 export default class Thanos {
-    constructor(options: Options)
+    constructor(options?: Options)
 
     options: Options
     defaultOptions: DefaultOptions
