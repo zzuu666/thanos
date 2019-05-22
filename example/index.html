@@ -6,7 +6,6 @@
     <title>Thanos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../src/index.css">
     <style>
         * {
             margin: 0;
@@ -24,8 +23,6 @@
             word-wrap: break-word;
         }
     </style>
-    <script src="../node_modules/html2canvas/dist/html2canvas.min.js"></script>
-    <script src="../dist/thanos.min.js"></script>
 </head>
 
 <body>
@@ -36,15 +33,5 @@
         </div>
     </div>
 </body>
-
-<script>
-    const thanos = new Thanos({
-        frames: 16,
-        repetitionCount: 2
-    })
-    setTimeout(() => {
-        thanos.disintegrate(document.querySelector('.example'))
-    }, 2000)
-</script>
-
+<script src="./index.ts"></script>
 </html>
