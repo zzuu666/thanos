@@ -1,6 +1,6 @@
 {
   "name": "thanos-boom",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Destroy an element like Thanos snap his fingers!",
   "main": "dist/thanos.min.js",
   "scripts": {
